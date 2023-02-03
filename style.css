@@ -1,3 +1,64 @@
 body {
     padding-top: 10px;
   }
+
+.extra {
+  width: 50%;
+}
+
+.foodcard {
+  margin-bottom: 35px;
+
+}
+
+.foodimage {
+  width:min-content;
+  justify-items: center;
+  /* margin-right: 10px; */
+  margin-inline-start: 15%;
+}
+
+.foodname {
+  font-family:'Times New Roman', Times, serif;
+  text-align: left;
+  float: left;
+  display: block;
+  font-size: 40px;
+}
+
+.orderbutton {
+  border-radius: 15px;
+  height: 39px;
+  width: 70px;
+  padding-left: 6px;
+  padding-bottom: 30px;
+  background-color: rgb(119, 217, 255);
+  border-style: solid;
+  border-color: black;
+  text-align:center;
+  font-size: 25px;
+  /* text-indent: 8px; */
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+.pricetag {
+  /* align-self: flex-end; */
+  font-size: x-large;
+  align-items:end;
+  align-content:flex-end;
+  margin-top: 9px;
+}
+
+.subheading {
+  color: rgb(255, 0, 0);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: large;
+}
+
+.subsubheading {
+  font-style: italic;
+  margin-bottom:45px;
+}
