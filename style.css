@@ -2,13 +2,35 @@ body {
     padding-top: 10px;
   }
 
+.additems {
+  justify-content: end;
+  max-height: fit-content;
+  margin-top: 10%;
+}
+
+.clearbutton {
+  margin-left: 5px;
+  width: fit-content;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  background-color: rgb(214, 214, 214);
+}
+
 .extra {
-  width: 50%;
+  align-items: flex-end;
+  align-content: flex-end;
+  /* width: 30%; */
+  min-width: 10%;
+  max-width: 50%;
+  /* margin-inline-end: 15%; */
 }
 
 .foodcard {
   margin-bottom: 35px;
-
+  justify-content: right;
+  justify-self: center;
+  justify-items: right;
 }
 
 .foodimage {
@@ -19,6 +41,9 @@ body {
 }
 
 .foodname {
+  justify-content: left;
+  justify-self: left;
+  justify-items: left;
   font-family:'Times New Roman', Times, serif;
   text-align: left;
   float: left;
@@ -26,28 +51,29 @@ body {
   font-size: 40px;
 }
 
+.name-price {
+  /* justify-content: end; */
+  /* max-width: max-content; */
+}
+
 .orderbutton {
-  border-radius: 15px;
-  height: 39px;
-  width: 70px;
-  padding-left: 6px;
-  padding-bottom: 30px;
-  background-color: rgb(119, 217, 255);
+  width: fit-content;
   border-style: solid;
   border-color: black;
-  text-align:center;
-  font-size: 25px;
-  /* text-indent: 8px; */
-  font-family: 'Times New Roman', Times, serif;
-  margin-left: 0px;
-  margin-top: 30px;
+  border-radius: 15px;
+  background-color: rgb(149, 225, 255);
+
 }
 
 .pricetag {
-  /* align-self: flex-end; */
+  justify-content: flex-end;
+  justify-self: flex-end;
+  justify-items: flex-end;
+  align-self: right;
   font-size: x-large;
-  align-items:end;
-  align-content:flex-end;
+  align-items: right;
+  align-content:right;
+  float: right;
   margin-top: 9px;
 }
 
@@ -61,4 +87,18 @@ body {
 .subsubheading {
   font-style: italic;
   margin-bottom:45px;
+}
+
+.subtotal {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width:50%;
+  font-weight:bold;
+  font-size: large;
+  
+}
+
+.subtotal-row {
+  margin-bottom: 30px;
 }
